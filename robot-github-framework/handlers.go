@@ -2,7 +2,7 @@ package framework
 
 import (
 	"github.com/google/go-github/v36/github"
-	"github.com/opensourceways/community-robot-lib/config"
+	"github.com/opensourceways/server-common-lib/config"
 	"github.com/sirupsen/logrus"
 )
 

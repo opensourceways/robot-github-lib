@@ -4,9 +4,10 @@ import (
 	"errors"
 
 	sdk "github.com/google/go-github/v36/github"
-	"github.com/opensourceways/community-robot-lib/config"
-	framework "github.com/opensourceways/community-robot-lib/robot-github-framework"
+	"github.com/opensourceways/server-common-lib/config"
 	"github.com/sirupsen/logrus"
+
+	framework "github.com/opensourceways/robot-github-lib/robot-github-framework"
 )
 
 // TODO: set botName

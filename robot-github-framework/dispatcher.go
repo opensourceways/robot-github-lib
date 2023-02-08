@@ -6,9 +6,10 @@ import (
 	"sync"
 
 	"github.com/google/go-github/v36/github"
-	"github.com/opensourceways/community-robot-lib/config"
-	"github.com/opensourceways/community-robot-lib/githubclient"
+	"github.com/opensourceways/server-common-lib/config"
 	"github.com/sirupsen/logrus"
+
+	"github.com/opensourceways/robot-github-lib/githubclient"
 )
 
 const (
